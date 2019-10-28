@@ -1,5 +1,4 @@
-# *** Warning! Your custom domain is not using HTTPS yet ***
 # These rules will change if you change your site’s custom domains or HTTPS settings
 
-# Redirect domain aliases to primary domain
-http://airitservice.com/* http://airitservice.com/:splat 301!
+# Redirect default Netlify subdomain to primary domain
+https://trusting-booth-ba8167.netlify.com/* https://airitservice.com/:splat 301!
