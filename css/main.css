@@ -720,6 +720,7 @@ button:focus {
 #features .show-box img {
   position: center;
   bottom: -100px;
+  padding-left: 25%;
 }
 
 /* ==========================================================================
