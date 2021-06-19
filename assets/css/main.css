@@ -1472,3 +1472,11 @@ text-align: center;
     transform: translateY(-10px);
   }
 }
+
+
+/* ADS */
+.adsimg {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
