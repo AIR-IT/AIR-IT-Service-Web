@@ -8,13 +8,13 @@ import { services } from '../data/data'
 			<h1 class="font-bold text-4xl">Layanan Kami</h1>
 			<p>Kami menawarkan berbagai macam layanan IT Support untuk personal</p>
 		</div>
-		<div class="grid grid-cols-3 space-x-3">
+		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 			<!-- CARD SECTION -->
 			<div v-for="service in services" :key="service.id" class="bg-white shadow-md">
-				<img :src="service.img" alt="" class="w-full h-60 object-cover" />
-				<div class="text-center py-8 space-y-8 px-8">
-					<h4 class="font-bold hover:text-blue-800">{{ service.title }}</h4>
-					<p class="">{{ service.description }}</p>
+				<img :src="service.img" alt="" class="w-full h-60 object-cover md:h-48 lg:h-60" />
+				<div class="text-center py-4 px-4">
+					<h4 class="font-bold text-lg md:text-xl lg:text-2xl hover:text-blue-800">{{ service.title }}</h4>
+					<p class="text-sm md:text-base">{{ service.description }}</p>
 				</div>
 			</div>
 		</div>
