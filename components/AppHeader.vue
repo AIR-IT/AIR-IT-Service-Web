@@ -30,8 +30,7 @@ export default {
     <div class=" mx-auto max-w-6xl items-center justify-between py-2 z-50 border-black">
       <div class="bg-white flex mx-auto ">
         <NuxtLink to="/">
-          <!-- <p class="text-4xl text-gray-950 font-bold hover:text-blue-900">AIR IT SERVICE</p> -->
-          <img src="/logo.png" alt="nuxtIcon" height="10px"/>
+          <img src="/logo.png" alt="nuxtIcon" class="hidden sm:hidden md:hidden lg:block"/> <!-- Hidden on small and medium screens, visible on large screens -->
         </NuxtLink>
         <nav aria-label="Site Nav" class="gap-x-10 text-md font-medium flex flex-1 items-center justify-end">
         <NuxtLink @click="scrollToSection('#home')" class="text-gray-950 font-bold hover:text-blue-900" to="/">Home</NuxtLink>
