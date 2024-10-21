@@ -3,6 +3,7 @@
     <main>
     <CarouselSection />
     <ServiceCards />
+    <TabList />
     <InstagramEmbed />
     <ContactSection />
     <!-- <TestimonialSection />
